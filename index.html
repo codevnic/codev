@@ -27,7 +27,7 @@
           <figure class="main-header__logo-container"><a href="/"><img class="main-header__logo" src="../img/icons/codev-logo.png" id="codevLogo" alt="Logo CoDev"/></a></figure>
           <div class="main-header__barMenu" id="btnMenu"><i class="icon-menu main-header__hamburger"></i></div>
           <nav class="main-header__menu-container" id="menu">
-            <ul class="main-header__list-menu">
+            <ul class="main-header__list-menu" id="menuUlContainer">
               <li class="main-header__item xtra-small-font inicio active" id="homeNormalItem">Inicio</li>
               <li class="main-header__item xtra-small-font nosotros" id="aboutNormalItem">Nosotros</li>
               <li class="main-header__item xtra-small-font servicios" id="servicesNormalItem">Servicios</li>
@@ -79,7 +79,7 @@
         <p class="title-container__description title-container__description--diffColor xtra-small-font">CoDev ofrece los siguientes servicios</p>
       </div>
       <div class="services-container">
-        <div class="services-container__description" data-aos="zoom-in-right">
+        <div class="services-container__description" data-aos="zoom-in-down">
           <div class="block-servicios block-servicios--colorWhite block-servicios--alignRight">
             <h2 class="block-servicios__title h2 ">Diseño/Desarollo Web</h2>
             <p class="block-servicios__description xtra-small-font">Diseñamos tu sitio web a la medida, y según tus requerimientos</p>
@@ -94,7 +94,7 @@
           </div>
         </div>
         <figure class="services-container__img-container" data-aos="zoom-out-down"><img class="services-container__img" src="img/servicios-img.png"/></figure>
-        <div class="services-container__description" data-aos="zoom-in-left">
+        <div class="services-container__description" data-aos="zoom-in-down">
           <div class="block-servicios block-servicios--colorWhite block-servicios--alignLeft">
             <h2 class="block-servicios__title h2">Desarrollo de sistemas</h2>
             <p class="block-servicios__description xtra-small-font">Desarrollamos tu sistema a la medida, y según tus requerimientos</p>
@@ -195,7 +195,7 @@
         <hr class="title-container__separation title-container__separation--diffColor"/>
         <p class="title-container__description title-container__description--diffColor xtra-small-font">Conoce nuestros últimos trabajos</p>
       </div>
-      <div class="portfolio-section__container" data-aos="fade-right">
+      <div class="portfolio-section__container" data-aos="fade-up">
         <div class="block-portafolio">
           <div class="block-portafolio__img-container"><img class="block-portafolio__img" src="img/portfolio/instituto-auditores-internos-compressor.png" alt="CoDev Portafolio IAIN"/></div><a class="block-portafolio__description xtra-small-font" href="http://iain.org.ni" target="_blank">Instituto de Auditores Internos de Nicaragua    </a>
         </div>
@@ -248,21 +248,8 @@
         <div class="social-container footer-section__social-media"><a href="https://facebook.com" target="_blank"><i class="icon-facebook social-container--iconMedia h3"></i></a><a href="https://twitter.com" target="_blank"><i class="icon-twitter social-container--iconMedia h3"></i></a><a href="https://youtube.com" target="_blank"><i class="icon-youtube social-container--iconMedia h3"></i></a><a href="https://pinterest.com" target="_blank"><i class="icon-pinterest social-container--iconMedia h3"></i></a></div>
       </div>
     </footer>
-    <div class="menu-container-responsive"> 
-      <div class="close-icon-container px-layout"><span class="close-icon-container__close-icon" id="closeIcon"> <i class="icon-close"></i></span></div>
-      <figure class="main-header__logo-container--mod"> <a href="/"><img class="main-header__logo main-header__logo--mod" src="../img/icons/codev-logo.png" alt="Logo CoDev"/></a></figure>
-      <ul class="menu-container-responsive__list-menu"> 
-        <li class="menu-container-responsive__item xtra-small-font inicio active" id="homeResponsiveItem">Inicio</li>
-        <li class="menu-container-responsive__item xtra-small-font nosotros active" id="aboutResponsiveItem">Nosotros</li>
-        <li class="menu-container-responsive__item xtra-small-font servicios active" id="servicesResponsiveItem">Servicios</li>
-        <li class="menu-container-responsive__item xtra-small-font tecnologias active" id="technologiesResponsiveItem">Tecnologías</li>
-        <li class="menu-container-responsive__item xtra-small-font portafolio active" id="portfolioResponsiveItem">Portafolio</li>
-        <li class="menu-container-responsive__item xtra-small-font contacto active" id="contactResponsiveItem">Contacto</li>
-      </ul>
-      <div class="social-container social-container--mod"> <a href="https://facebook" target="_blank"><i class="icon-facebook social-container--iconMedia menu"></i></a><a href="https://twitter" target="_blank"><i class="icon-twitter social-container--iconMedia menu"></i></a><a href="https://youtube" target="_blank"><i class="icon-youtube social-container--iconMedia menu"></i></a><a href="https://pinterest" target="_blank"><i class="icon-pinterest social-container--iconMedia menu"></i></a>
-      </div>
-    </div>
     <div class="feedback-container" id="feedback"></div>
+    <div class="loader-container" id="loaderContainer"><i class="icon-spiner animate-spin loader-container__icon-loader" id="loaderIcon"></i></div>
     <script src="js/script.js"></script>
   </body>
 </html>
