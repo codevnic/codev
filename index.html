@@ -12,13 +12,13 @@
     <meta name="MobileOptimized" content="320"/>
     <meta name="theme-color" content="#fff"/>
     <meta name="msapplication-TileColor" content="#fff"/>
-    <meta name="msapplication-TileImage" content="../img/icons/codev-logo.svg"/>
+    <meta name="msapplication-TileImage" content="../img/icons/codev-logo.png"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
-    <link rel="apple-touch-startup-image" href="../img/icons/codev-logo.svg"/>
+    <link rel="apple-touch-startup-image" href="../img/icons/codev-logo.png"/>
     <link rel="icon" type="image/x-icon" href="../img/icons/favicon.png"/>
     <link rel="icon" type="image/png" href="../img/icons/codev-logo.png"/>
-    <link rel="apple-touch-icon" href="../img/icons/codev-logo.svg"/>
+    <link rel="apple-touch-icon" href="../img/icons/codev-logo.png"/>
   </head>
   <body>
     <section class="home-section">
@@ -249,7 +249,11 @@
       </div>
     </footer>
     <div class="feedback-container" id="feedback"></div>
-    <div class="loader-container" id="loaderContainer"><i class="icon-spiner animate-spin loader-container__icon-loader" id="loaderIcon"></i></div>
+    <div class="loader-main-container" id="loaderContainer">
+      <div class="loader-main-container__sub-container"><img class="loader-main-container__logo" src="img/icons/codev-logo.svg" id="logoPreLoader" alt="CoDev Logo"/>
+        <div class="loader"></div>
+      </div>
+    </div>
     <script src="js/script.js"></script>
   </body>
 </html>
